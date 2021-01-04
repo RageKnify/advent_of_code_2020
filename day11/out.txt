@@ -1,0 +1,13 @@
+   Compiling day11 v0.1.0 (/home/jp/Documents/Code/Rust/advent_of_code2020/day11)
+warning: function is never used: `to_str`
+   --> src/part1.rs:117:4
+    |
+117 | fn to_str(seats: &Vec<Vec<Spot>>) -> String {
+    |    ^^^^^^
+    |
+    = note: `#[warn(dead_code)]` on by default
+
+warning: 1 warning emitted
+
+    Finished dev [unoptimized + debuginfo] target(s) in 0.76s
+     Running `target/debug/part1`
